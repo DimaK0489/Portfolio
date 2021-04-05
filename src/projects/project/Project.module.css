@@ -1,0 +1,26 @@
+.project {
+    width: 400px;
+    background-color: #477e7e;
+}
+.imgContainer {
+    width: 100%;
+    height: 200px;
+    background-color: #4aab15;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    text-decoration: none;
+    user-select: none;
+    background: #477e7e;
+    padding: 10px 25px;
+}
+.title {
+    margin: 3px;
+    background-color: #a94444;
+}
+.description {
+    margin: 3px;
+    background-color: #e2d4d4;
+}
