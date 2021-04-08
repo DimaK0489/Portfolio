@@ -6,6 +6,7 @@ type ProjectPropsType = {
     description: string
 }
 
+
 const Project = (props: ProjectPropsType) => {
     return (
         <div className={style.project}>
@@ -14,7 +15,7 @@ const Project = (props: ProjectPropsType) => {
             </div>
             <div className={style.title}>
                 <div > {props.title}</div>
-                <span className={style.description} >{props.description}</span>
+                <div className={style.description} >{props.description}</div>
             </div>
         </div>
     );

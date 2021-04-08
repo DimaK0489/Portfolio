@@ -1,0 +1,30 @@
+.footerBlock{
+    border: 1px solid black;
+    min-height: 30vh;
+    background-color: cornflowerblue;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.nameTitle {
+    background-color: aquamarine;
+}
+
+.footerContainer{
+    width: 250px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    height: 60px;
+    width: 60px;
+    background-color: #a7acb3;
+}
+
+
