@@ -1,0 +1,28 @@
+.projectsBlock {
+  background-color: #eaeaef;
+  padding: 100px 0;
+
+  .projectsContainer {
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .projects {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 40px;
+      align-items: flex-start;
+      @media screen and (min-width: 1007px) {
+        justify-content: space-between;
+      }
+    }
+  }
+
+}
+
+
+
+
+
